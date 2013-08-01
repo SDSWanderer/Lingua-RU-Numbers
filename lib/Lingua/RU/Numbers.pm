@@ -1,4 +1,4 @@
-package Lingua::UK::Numbers;
+package Lingua::RU::Numbers;
 
 use strict;
 use warnings;
@@ -101,7 +101,7 @@ sub number_in_words {
 	my ( $sum, $gender ) = @_;
 	croak 'gender should be "FEMININE" or "MASCULINE"' unless $gender ~~ ['FEMININE', 'MASCULINE'];
 	
-	return "нуль" if $sum == 0;
+	return "ноль" if $sum == 0;
 
 	local $nom{1} = {
 		0 => "",
@@ -174,11 +174,11 @@ sub get_string {
 
 =head1 NAME
 
-Lingua::UK::Numbers - Converts numbers to money sum in words (in Ukrainian hryvnas)
+Lingua::RU::Numbers - Converts numbers to money sum in words (in Russian rubles)
 
 =head1 SYNOPSIS
 
-  use Lingua::UK::Numbers qw(number_in_words uah_in_words);
+  use Lingua::RU::Numbers qw(number_in_words uah_in_words);
 
   print number_in_words(100);
 
@@ -187,7 +187,7 @@ Lingua::UK::Numbers - Converts numbers to money sum in words (in Ukrainian hryvn
 
 =head1 DESCRIPTION
 
-B<Lingua::UK::Numbers> helps you to convert number to words.
+B<Lingua::RU::Numbers> helps you to convert number to words.
 
 =head1 FUNCTIONS
 
@@ -209,7 +209,7 @@ Viktor Turskyi <koorchik@cpan.org>
 
 =head1 BUGS
 
-Please report any bugs or feature requests to Github L<https://github.com/koorchik/Lingua-UK-Numbers>
+Please report any bugs or feature requests to Github L<https://github.com/koorchik/Lingua-RU-Numbers>
 
 =head1 SEE ALSO
 
@@ -217,4 +217,4 @@ L<Lingua-RU-Number>
 
 =cut
 
-1;    # End of Lingua::UK::Numbers
+1;    # End of Lingua::RU::Numbers

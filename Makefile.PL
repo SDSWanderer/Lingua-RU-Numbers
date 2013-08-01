@@ -4,10 +4,10 @@ use warnings;
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-    NAME                => 'Lingua::UK::Numbers',
+    NAME                => 'Lingua::RU::Numbers',
     AUTHOR              => q{"koorchik" <"koorchik@cpan.org">},
-    VERSION_FROM        => 'lib/Lingua/UK/Numbers.pm',
-    ABSTRACT_FROM       => 'lib/Lingua/UK/Numbers.pm',
+    VERSION_FROM        => 'lib/Lingua/RU/Numbers.pm',
+    ABSTRACT_FROM       => 'lib/Lingua/RU/Numbers.pm',
     ($ExtUtils::MakeMaker::VERSION >= 6.3002
       ? ('LICENSE'=> 'perl')
       : ()),
@@ -16,5 +16,5 @@ WriteMakefile(
         'Test::More' => 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
-    clean               => { FILES => 'Lingua-UK-Numbers-*' },
+    clean               => { FILES => 'Lingua-RU-Numbers-*' },
 );

@@ -1,4 +1,4 @@
-Lingua-UK-Numbers
+Lingua-RU-Numbers
 
 The README is used to introduce the module and provide instructions on
 how to install the module, any machine dependencies it may have (for
@@ -26,21 +26,21 @@ SUPPORT AND DOCUMENTATION
 After installing, you can find documentation for this module with the
 perldoc command.
 
-    perldoc Lingua::UK::Numbers
+    perldoc Lingua::RU::Numbers
 
 You can also look for information at:
 
     RT, CPAN's request tracker (report bugs here)
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Lingua-UK-Numbers
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Lingua-RU-Numbers
 
     AnnoCPAN, Annotated CPAN documentation
-        http://annocpan.org/dist/Lingua-UK-Numbers
+        http://annocpan.org/dist/Lingua-RU-Numbers
 
     CPAN Ratings
-        http://cpanratings.perl.org/d/Lingua-UK-Numbers
+        http://cpanratings.perl.org/d/Lingua-RU-Numbers
 
     Search CPAN
-        http://search.cpan.org/dist/Lingua-UK-Numbers/
+        http://search.cpan.org/dist/Lingua-RU-Numbers/
 
 
 LICENSE AND COPYRIGHT
